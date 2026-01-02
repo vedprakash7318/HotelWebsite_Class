@@ -1,0 +1,45 @@
+.accordions-container{
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 10px;
+}
+.accordions-item{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.accordions-header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.accordions-header h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.icon{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.accordions-content{
+    padding: 0 20px 20px 20px;
+    color: #555;
+    line-height: 1.6;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

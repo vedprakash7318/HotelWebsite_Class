@@ -1,0 +1,12 @@
+.map-container{
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+    width: 100%;
+    background-color: red;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+}
