@@ -18,8 +18,8 @@ const AboutUs = () => {
 
 
         <div className="about_images">
-            <img src="public/Images/home_2.jpg" alt="bedroom" className='image images_main'/>
-            <img src="public/Images/home_1.jpg" alt="bathroom"  className='image image_overlay'/>
+            <img src="public/Images/home_2.jpg" alt="bedroom" data-aos="fade-left" className='image images_main'/>
+            <img src="public/Images/home_1.jpg" data-aos="fade-up" alt="bathroom"  className='image image_overlay'/>
         </div>
       </section>
         {/* <hr /> */}

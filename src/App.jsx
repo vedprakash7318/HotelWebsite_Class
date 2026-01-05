@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
 import { About } from './Pages/About'
@@ -8,8 +8,19 @@ import Testimonials from './Components/Testimonials'
 import Accordions from './Components/Accordions'
 import ContactSection from './Components/ContactSection'
 import MapSection from './Components/MapSection'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import 'animate.css';
 
 const App = () => {
+
+useEffect(()=>{
+  AOS.init({
+    duration:600,
+  })
+},[])
+
+
   return (
     <>
     <Header/>
